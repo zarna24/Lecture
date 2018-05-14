@@ -1,0 +1,79 @@
+* {
+    color: red;
+}
+
+h2 {
+
+    color: blue;
+}
+
+li h2 {
+
+    color: green;
+}
+
+#myItem1 {
+    color: aqua;
+
+}
+
+.myItem1 {
+color: navy;
+}
+
+li.myItem {
+    color: yellow;
+}
+/* data */
+[data-modal="open"] {
+background-color: blueviolet;
+padding: 13px
+color= white;
+}
+
+ul.menu > li {
+   */ display: inline;
+   padding: 10px
+
+}
+
+ul.menu > li:first-child {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+ul.menu > li:nth-child(2) a,
+ul.menu > li:nth-child(3) a {
+    font-size: 20px;
+    font-weight: 700;
+    color: limegreen
+}
+ul.menu > li:last-child a {
+    font-size: 20px;
+    font-weight: 700;
+    color: black
+}
+
+ul.menu > li:nth-child(2n +1) a {
+    font-size: 20px;
+    font-weight: 700;
+    color: rebeccapurple;
+}
+
+
+
+p ~ p {
+    color: chartreuse;
+    font-siza:18px;
+    cursor:pointer;
+}
+
+#par 1 ~ p:hover {
+    background-color: black (0,0,255,0,671)
+    padding: 10px;
+}
+
+#par 2 ~ p:hover {
+    background-color: black (0,0,255,0,671)
+    padding: 10px;
+}

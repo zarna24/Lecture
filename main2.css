@@ -1,0 +1,21 @@
+body {
+    background-color: aqua
+}
+
+h1 {
+    text-align: center;
+}
+
+#header2 {
+    text-align: center;
+    color: lightcoral;
+}
+
+.right {
+    text-align: right;
+}
+
+h3 {
+    text-align: center;
+    color: red;
+}
