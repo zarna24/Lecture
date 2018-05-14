@@ -1,0 +1,22 @@
+
+/* table {
+    cellspacing="0" 
+  
+} */
+
+td,
+tr {
+    padding: 20px;
+   border-collapse: collapse;
+   font-size: 30px
+}
+
+table.chess tr:nth-child(2n+1)  td:nth-child(2n+1) {
+background-color: green;
+}
+    
+table.chess tr:nth-child(2n+2) td:nth-child(2n+2)  {
+    background-color: green;
+}
+
+    
